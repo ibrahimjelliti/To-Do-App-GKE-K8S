@@ -1,0 +1,12 @@
+# ignore .git and .cache folders
+.git
+.cache
+.gitignore
+node_modules
+
+# ignore all markdown files (md) beside all README*.md other than README-secret.md
+*.md
+!README*.md
+
+# ignore cicd folder
+/ci-cd-gke
